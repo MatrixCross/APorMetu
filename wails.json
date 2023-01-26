@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "APor",
+  "outputfilename": "APor",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "devServer": "127.0.0.1:3020",
+  "author": {
+    "name": "Mr.Li",
+    "email": "63112788+undercurre@users.noreply.github.com"
+  }
+}
