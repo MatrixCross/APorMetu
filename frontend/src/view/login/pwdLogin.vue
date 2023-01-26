@@ -47,7 +47,7 @@ async function submit() {
     } else {
         notification['error']({
             content: '登录失败',
-            meta: `${JSON.stringify(loginRes)}`,
+            meta: `注册后自动登录`,
             duration: 2500,
             keepAliveOnHover: true,
         });
